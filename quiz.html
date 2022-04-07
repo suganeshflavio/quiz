@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> QUIZ</title>
+
+    <link rel="stylesheet" type="text/css" href="./quiz.css">
+</head>
+
+<body>
+    <form name="quiz" id="quiz">
+        <div>
+            <P>1. What is the popular programming language in 2022?</P>
+            <p><input type="radio" name="question1" value="Html">1.HTML</p>
+            <p><input type="radio" name="question1" value="Python">2.PYTHON</p>
+            <p><input type="radio" name="question1" value="Javascript">3.JAVASCRIPT</p>
+            <p><input type="radio" name="question1" value="Swift">4.SWIFT</p>
+        </div>
+
+        <div>
+            <P>2. What is the biggest country in world?</P>
+            <div class="radio">
+                <p><input type="radio" name="question2" value="India">1.India</p>
+                <p><input type="radio" name="question2" value="Russia">2.Russia</p>
+                <p><input type="radio" name="question2" value="China">3.China</p>
+                <p><input type="radio" name="question2" value="America">4.America</p>
+            </div>
+        </div>
+
+        <div>
+            <P>3. What is the captial of india?</P>
+            <p><input type="radio" name="question3" value="Delhi">1.Delhi</p>
+            <p><input type="radio" name="question3" value="Chennai">2.Chennai</p>
+            <p><input type="radio" name="question3" value="Goa">3.Goa</p>
+            <p><input type="radio" name="question3" value="Mumbai">4.Mumbai</p>
+        </div>
+
+        <div>
+            <P>4. What is the biggest problem in the world?</P>
+            <p><input type="radio" name="question4" value="Finance">1.Finance</p>
+            <p><input type="radio" name="question4" value="Coronavirus">2.Coronavirus</p>
+            <p><input type="radio" name="question4" value="Economic">3.Economic</p>
+            <p><input type="radio" name="question4" value="There is no problem">4.There is no problem</p>
+        </div>
+
+        <div>
+            <P>5. How many months in a year?</P>
+            <p><input type="radio" name="question5" value="Ten">1.Ten</p>
+            <p><input type="radio" name="question5" value="Eleven">2.Eleven</p>
+            <p><input type="radio" name="question5" value="Thirteen">3.Thirteen</p>
+            <p><input type="radio" name="question5" value="Twelve">4.Twelve</p>
+        </div>
+
+        <input type="button" value="SUBMIT" class="button" onclick="check()">
+    </form>
+
+    <p id="result"> </p>
+    <script type="text/javascript" src="./quiz.js"></script>
+
+</body>
+
+</html>
